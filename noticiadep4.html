@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOLAVA!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagenes/mapa olavarria.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <h1 class="titulo">INFOLAVA!
+            </h1>
+            <img class="logo" src="imagenes/mapa olavarria.png" alt="mapaolav">
+            <div class="btn-menu"><a>Menú</a></div>
+        </div>
+    </header>
+    <nav>
+        <ul class="barranav">
+            <li><a href="index.html">Home</a></li>
+            <li class="aaa"><a href="seccionpolitica.html">Politica</a></li>
+            <li><a href="secciondeportes.html">Deportivas</a></li>
+            <li><a href="seccioncovid.html">Covid</a></li>
+            <li><a href="https://www.google.com/search?q=olavarria+clima&sxsrf=ALeKk03bIBTvdj641A-bYPYAkOzxWrDVjw%3A1618058546955&ei=Mp1xYIjkOaCu5OUPi6GMsAE&oq=olavarria+c&gs_lcp=Cgdnd3Mtd2l6EAEYADIJCCMQJxBGEIACMgIIADIFCAAQyQMyAggAMgIIADICCAAyAgguMgIIADICCAAyAggAOgcIIxCwAxAnOgcILhCwAxAnOgcIABBHELADOgoILhCwAxDIAxBDOgQIIxAnOgcIABCHAhAUOggIABCxAxCDAToECAAQQzoICAAQxwEQrwFKBQg4EgExUNsFWI8HYOIMaAFwAngAgAGSAYgBtAKSAQMyLjGYAQCgAQGqAQdnd3Mtd2l6yAENwAEB&sclient=gws-wiz"
+                    target="_blank">Clima</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="encabezado">
+            <h1>El grupo de Boca en la Copa Libertadores 2021: clasificados, resultados y tabla de posiciones</h1>
+            <p class="epigrafe">El equipo de Russo terminó segundo en el Grupo C, en el que Barcelona de Ecuador quedó
+                como líder absoluto. Santos, tercero y a la Sudamericana.</p>
+            <img src="imagenes/bocalibertadores.jpg" alt="Boca Juniors">
+        </div>
+        <div class="cuerponoticia">
+            <p><span class="resaltado">Boca Juniors</span> lleva casi 14 años con un sueño que no puede concretar: la
+                ansiada séptima Copa Libertadores, con la que igualaría a Independiente como los más ganadores del
+                certamen de clubes más importante del continente. Y este año lo está intentando una vez más, con Miguel
+                Russo en el banco, Carlos Tevez en la cancha y Juan Román Riquelme como vicepresidente.</p>
+            <p>El Xeneize había comenzado con todo en la zona, con victorias en La Paz y ante Santos en La Bombonera.
+                Sin embargo, sacó solamente un punto de los nueve siguientes y llegó a la última jornada obligado a
+                ganarle a The Strongest para no depender de Santos. Finalmente el quipo de Russo goleó a los bolivianos
+                como local y se aseguró el segundo lugar del Grupo C, detrás de Barcelona SC.</p>
+            <h2 class="subtitulo">Tabla de posiciones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>POSICION</th>
+                        <th>EQUIPO</th>
+                        <th>PTS</th>
+                    </tr>
+                </thead>
+                <tbody id="tabladinamica">
+                    
+
+                </tbody>
+            </table>
+            <div class="input_tabla">
+                <input type="number" name="posicion" id="input_posicion" placeholder="Posicion">
+                <input type="text" name="equipo" id="input_equipo" placeholder="Equipo">
+                <input type="number" name="puntos" id="input_puntos" placeholder="Puntos">
+            </div>
+            <div class="botones">
+                <button id="btn_agregar" type="button">Agregar</button>
+                <button id="btn_agregarx3" type="button">Agregar x3</button>
+                <button id="btn_vaciartabla" type="button">Vaciar tabla</button>
+            </div>
+            <p id="alerta"></p>
+        </div>
+    </main>
+    <footer>
+        <h4>INFOLAVA,2021</h4>
+    </footer>
+<script src="js/togglemenu.js"></script>
+<script src="js/tabladinamica.js"></script>
+</body>
+
+</html>
